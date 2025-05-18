@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+
+@layer utilities {
+  .bg-gradient-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  }
+}
+
+:root {
+  --color-purple-50: 250 245 255;
+  --color-purple-100: 243 232 255;
+  --color-purple-200: 233 213 255;
+  --color-purple-300: 216 180 254;
+  --color-purple-400: 192 132 252;
+  --color-purple-500: 168 85 247;
+  --color-purple-600: 147 51 234;
+  --color-purple-700: 126 34 206;
+  --color-purple-800: 107 33 168;
+  --color-purple-900: 88 28 135;
+  --color-purple-950: 59 7 100;
+}
